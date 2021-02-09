@@ -45,21 +45,7 @@ Validate whether you have git installed:
 `npm install -g dredd` [install [dredd]()]
 
 `dredd --version` [check if it installed correctly]
-
-Create a file named: `animal_crossing_apis.apib`
-
-The next command will prompt some questions:
-
 `dredd init` [interactive configuration]
-
-1. ? Location of the API description document. Answer: `./animal_crossing_apis.apib`
-2. ? Command to start the API server under test. Answer: `npm start`
-3. ? Host of the API under test. Answer: leave blank!
-4. ? Do you want to use hooks to customize Dredd's behavior? Answer: `n`
-5. ? Do you want to report your tests to the Apiary inspector?. Answer: `n`
-6. ? Dredd is best served with Continuous Integration. Do you want to create CI configuration? Answer: `n`
-
-## Step 4: Example of a test in .apib format.
 
 ## Step 4: Runnning Tests
 Just run `dredd` to run the tests.
