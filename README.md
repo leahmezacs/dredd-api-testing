@@ -3,9 +3,10 @@
 
 ## Step 1: Git
 > Open up your terminal to a desired directory for this project.
-Enter the following command, replacing leah with your name:
-`mkdir leah-api-testing` [this creates a directory] 
 
+Enter the following command, replacing leah with your name:
+
+`mkdir leah-api-testing` [this creates a directory] 
 
 npm install -g dredd
 dredd init
